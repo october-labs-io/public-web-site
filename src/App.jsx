@@ -1,35 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
+import Navigation from '@/components/Navigation';
+import Hero from '@/components/Hero';
+import Services from '@/components/Services';
+import AboutUs from '@/components/AboutUs';
+import Technology from '@/components/Technology';
+import Testimonials from '@/components/Testimonials';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
+import { Toaster } from '@/components/ui/toaster';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Helmet>
+        <title>Quantum IO - Soluciones Tecnológicas Innovadoras</title>
+        <meta name="description" content="Quantum IO: Impulsamos la transformación digital con soluciones de software a medida, inteligencia artificial y análisis de datos." />
+      </Helmet>
+      
+      <div className="min-h-screen bg-gray-900">
+        <Navigation isScrolled={isScrolled} />
+        <main>
+          <Hero />
+          <Services />
+          <AboutUs />
+          <Technology />
+          <Testimonials />
+          <Contact />
+        </main>
+        <Footer />
+        <Toaster />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
