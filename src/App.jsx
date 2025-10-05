@@ -25,8 +25,8 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Quantum IO - Soluciones Tecnológicas Innovadoras</title>
-        <meta name="description" content="Quantum IO: Impulsamos la transformación digital con soluciones de software a medida, inteligencia artificial y análisis de datos." />
+        <title>October Labs IO - Soluciones Tecnológicas Innovadoras</title>
+        <meta name="description" content="October Labs IO: Impulsamos la transformación digital con soluciones de software a medida, inteligencia artificial y análisis de datos." />
       </Helmet>
       
       <div className="min-h-screen bg-gray-900">
