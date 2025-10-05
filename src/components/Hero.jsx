@@ -33,7 +33,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             src={octoberLabsLogo}            
             alt="October Labs io"
-            className="h-24 md:h-60 mx-auto mb-8"
+            className="h-24 md:h-48 mx-auto mb-8"
           />
 
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
