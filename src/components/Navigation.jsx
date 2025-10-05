@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import octoberLabsLogo from "../assets/logo_transparent.svg";
 
 const Navigation = ({ isScrolled }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,11 +39,7 @@ const Navigation = ({ isScrolled }) => {
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => scrollToSection("#hero")}
           >
-            <img
-              src="https://horizons-cdn.hostinger.com/a60eb5fe-aba3-46c3-b9b2-81659102651e/258043e98140b0bcebb9956958ad0170.png"
-              alt="Quantum IO Logo"
-              className="h-10"
-            />
+            <img src={octoberLabsLogo} alt="October Labs io" className="h-10" />
           </motion.div>
 
           <div className="hidden md:flex items-center gap-8">
