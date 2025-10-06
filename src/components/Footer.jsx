@@ -31,7 +31,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Impulsando la transformación digital con soluciones innovadoras.
+              Orquestamos la IA para acelerar tu éxito.
             </p>
           </div>
 
@@ -82,7 +82,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <Mail className="w-5 h-5 text-purple-400 mt-1" />
-                <span className="text-gray-400">hola@quantummio.com</span>
+                <span className="text-gray-400">hola@octoberlabs.io</span>
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="w-5 h-5 text-purple-400 mt-1" />
@@ -124,7 +124,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-500">
-            © 2024 Quantum IO. Todos los derechos reservados.
+            © 2025 October Labs IO. Todos los derechos reservados.
           </p>
         </div>
       </div>

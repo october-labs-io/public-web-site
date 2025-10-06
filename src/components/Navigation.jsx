@@ -8,10 +8,11 @@ const Navigation = ({ isScrolled }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "Servicios", href: "#services" },
-    { name: "Nosotros", href: "#about" },
-    { name: "Tecnología", href: "#tech" },
-    { name: "Clientes", href: "#testimonials" },
+    // { name: "Servicios", href: "#services" },
+    { name: "About us", href: "#about" },
+    { name: "Stack AI", href: "#tech" },
+    { name: "Customers", href: "#testimonials" },
+    { name: "Portfolio", href: "#services" },
   ];
 
   const scrollToSection = (href) => {
@@ -57,7 +58,7 @@ const Navigation = ({ isScrolled }) => {
               onClick={() => scrollToSection("#contact")}
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold px-6 py-2 rounded-full shadow-lg shadow-purple-500/20"
             >
-              Contactar ahora
+              Let's talk about your ideas
             </Button>
           </div>
 

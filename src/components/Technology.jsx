@@ -1,25 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
+import geminiLogo from "../assets/gemini.svg";
+import julesLogo from "../assets/jules.svg";
+import notebooklmLogo from "../assets/notebooklm.svg";
+import stitchLogo from "../assets/stitch.png";
+import aiStudioLogo from "../assets/ai_studio.svg";
+import fireBaseStudioLogo from "../assets/firebase_studio.svg";
 
 const Technology = () => {
   const techStack = [
-    { name: "React", image: "https://cdn.svgporn.com/logos/react.svg" },
-    { name: "Node.js", image: "https://cdn.svgporn.com/logos/nodejs-icon.svg" },
-    { name: "Python", image: "https://cdn.svgporn.com/logos/python.svg" },
-    { name: "Docker", image: "https://cdn.svgporn.com/logos/docker-icon.svg" },
-    {
-      name: "Kubernetes",
-      image: "https://cdn.svgporn.com/logos/kubernetes.svg",
-    },
-    { name: "AWS", image: "https://cdn.svgporn.com/logos/aws.svg" },
-    {
-      name: "TensorFlow",
-      image: "https://cdn.svgporn.com/logos/tensorflow.svg",
-    },
-    {
-      name: "PostgreSQL",
-      image: "https://cdn.svgporn.com/logos/postgresql.svg",
-    },
+    { name: "Gemini", image: geminiLogo },
+    { name: "NotebookLM", image: notebooklmLogo },
+    { name: "Jules", image: julesLogo },
+    { name: "Firebase Studio", image: fireBaseStudioLogo },
+    { name: "Stitch", image: stitchLogo },
+    { name: "Google AI Studio", image: aiStudioLogo },
   ];
 
   return (
@@ -33,11 +28,12 @@ const Technology = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Nuestra Tecnología
+            Nuestro Stack
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Utilizamos un stack tecnológico moderno y robusto para construir
-            soluciones de alto rendimiento.
+            Utilizamos un stack de herramientas de AI moderno y robusto para
+            construir soluciones de alto rendimiento. Sabemos exactamente que
+            herramientas usar en cada iteración del producto.
           </p>
         </motion.div>
 

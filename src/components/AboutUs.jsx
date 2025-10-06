@@ -1,6 +1,6 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Rocket, Target, Users } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { Rocket, Target, Users } from "lucide-react";
 
 const AboutUs = () => {
   return (
@@ -14,10 +14,16 @@ const AboutUs = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Somos el motor de tu innovación
+              El motor tecnológico de tus ideas
             </h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              En Quantum IO, somos un equipo de apasionados por la tecnología, dedicados a resolver problemas complejos con soluciones elegantes y eficientes. Nuestra misión es ser tu socio estratégico en el camino hacia la transformación digital.
+              En October Labs IO, somos un equipo de apasionados por la
+              tecnología, dedicados a resolver problemas complejos con
+              soluciones elegantes y eficientes. Nuestra experiencia no está
+              solo en construir, sino en saber cómo construir. Seleccionamos
+              estratégicamente las herramientas de IA para cada necesidad,
+              creando un proceso ultra-eficiente que reduce costos y te permite
+              llegar al mercado mucho antes.
             </p>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
@@ -25,8 +31,26 @@ const AboutUs = () => {
                   <Rocket className="w-6 h-6 text-purple-400" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">Nuestra Misión</h3>
-                  <p className="text-gray-400">Empoderar a las empresas con tecnología de vanguardia para que alcancen su máximo potencial.</p>
+                  <h3 className="text-xl font-bold text-white">
+                    Nuestra Misión
+                  </h3>
+                  <p>
+                    Lo que hacemos hoy, nuestro propósito y cómo lo logramos
+                  </p>
+                  <br />
+                  <p className="text-gray-400">
+                    Ser el socio tecnológico que impulsa el éxito de
+                    emprendedores y empresas, transformando sus ideas en
+                    productos digitales excepcionales. <br />
+                    <br /> Como lo hacemos? Lo hacemos a través de la
+                    orquestación estratégica de IA, aplicando la herramienta
+                    precisa para cada necesidad con el fin de acelerar los
+                    tiempos y optimizar los costos. Cada producto lo vivimos con
+                    una profunda pasión por construir, guiados por la amabilidad
+                    en cada interacción y el respeto por las personas y sus
+                    visiones, reflejando la calidez y el vibrante talento de
+                    LATAM.
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -34,8 +58,25 @@ const AboutUs = () => {
                   <Target className="w-6 h-6 text-blue-400" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">Nuestra Visión</h3>
-                  <p className="text-gray-400">Ser líderes en innovación tecnológica, creando un futuro más inteligente y conectado.</p>
+                  <h3 className="text-xl font-bold text-white">
+                    Nuestra Visión
+                  </h3>
+                  <p>
+                    (El futuro que queremos construir, nuestro impacto a largo
+                    plazo)
+                  </p>
+                  <br />
+                  <p className="text-gray-400">
+                    Ser el referente en LATAM de una nueva forma de crear
+                    tecnología: una que demuestre que la eficiencia radical de
+                    la IA y la calidez de la conexión humana no solo pueden,
+                    sino que deben coexistir. Aspiramos a un futuro donde las
+                    grandes ideas no mueran por barreras técnicas o económicas,
+                    y donde el talento sea reconocido globalmente por su
+                    creatividad, su excelencia y su capacidad única para innovar
+                    con un enfoque humano. Queremos ser el catalizador que
+                    conecte esas ideas con el mundo.
+                  </p>
                 </div>
               </div>
             </div>
@@ -51,8 +92,9 @@ const AboutUs = () => {
             <div className="relative z-10">
               <img
                 className="w-full rounded-2xl shadow-2xl shadow-purple-500/20"
-                alt="Equipo de Quantum IO colaborando en un proyecto tecnológico en una oficina moderna"
-               src="https://images.unsplash.com/photo-1519241047957-be31d7379a5d" />
+                alt="Equipo de October Labs IO colaborando en un proyecto tecnológico en una oficina moderna"
+                src="https://images.unsplash.com/photo-1519241047957-be31d7379a5d"
+              />
             </div>
             <div className="absolute -bottom-8 -right-8 w-72 h-72 bg-blue-600 rounded-full blur-3xl opacity-20"></div>
             <div className="absolute -top-8 -left-8 w-72 h-72 bg-purple-600 rounded-full blur-3xl opacity-20"></div>

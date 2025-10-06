@@ -40,7 +40,7 @@ const Contact = () => {
           className="max-w-3xl mx-auto text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Hablemos de tu proyecto
+            Hablemos de tus ideas...
           </h2>
           <p className="text-xl text-gray-400">
             ¿Listo para empezar? Completa el formulario y nuestro equipo se pondrá en contacto contigo.

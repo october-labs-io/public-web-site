@@ -31,19 +31,21 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            src={octoberLabsLogo}            
+            src={octoberLabsLogo}
             alt="October Labs io"
             className="h-24 md:h-48 mx-auto mb-8"
           />
 
-          <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-            Innovación Digital a tu Alcance
+          <h1 className="text-5xl md:text-5xl font-extrabold mb-6 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+            Orquestamos la IA para acelerar tu éxito
           </h1>
 
-          <p className="text-xl md:text-2xl mb-10 text-gray-300 max-w-3xl mx-auto">
-            Transformamos tus ideas en soluciones tecnológicas de alto impacto.
-            Impulsamos el futuro con software a medida, IA y análisis de datos.
-          </p>
+          <h2 className="text-xl md:text-2xl mb-10 text-gray-300 max-w-3xl mx-auto">
+            No se trata solo de usar herramientas, sino de aplicar la correcta.
+            Sabemos cuál es la IA perfecta para cada fase de tu producto. Así es
+            como optimizamos costos, aceleramos tu lanzamiento y nos enfocamos
+            contigo en la meta final: el éxito de tu idea.
+          </h2>
 
           <div className="flex justify-center gap-4">
             <Button
@@ -51,7 +53,7 @@ const Hero = () => {
               size="lg"
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold text-lg px-8 py-6 rounded-full shadow-2xl shadow-purple-500/30 group"
             >
-              Empezar Proyecto
+              Contanos Tu Idea
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button

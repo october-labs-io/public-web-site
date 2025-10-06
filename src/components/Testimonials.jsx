@@ -7,7 +7,7 @@ const Testimonials = () => {
     {
       name: "Elena García",
       role: "CEO, Innovate Corp",
-      text: "Quantum IO transformó nuestra infraestructura de datos. Su equipo no solo es experto, sino que también se compromete verdaderamente con el éxito del proyecto. ¡Los resultados superaron nuestras expectativas!",
+      text: "October Labs IO transformó nuestra infraestructura de datos. Su equipo no solo es experto, sino que también se compromete verdaderamente con el éxito del proyecto. ¡Los resultados superaron nuestras expectativas!",
       image:
         "Professional headshot of a confident female tech CEO, modern office background",
     },
@@ -21,7 +21,7 @@ const Testimonials = () => {
     {
       name: "Sofía López",
       role: "Fundadora, DataDriven Co.",
-      text: "La implementación de su modelo de IA ha optimizado nuestras operaciones en un 40%. El equipo de Quantum IO es brillante y su enfoque es increíblemente estratégico.",
+      text: "La implementación de su modelo de IA ha optimizado nuestras operaciones en un 40%. El equipo de October Labs IO es brillante y su enfoque es increíblemente estratégico.",
       image:
         "Professional photo of a sophisticated female founder, elegant business setting",
     },
