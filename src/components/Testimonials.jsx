@@ -1,13 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
+import barracaUnoLogo from "../assets/barraca_uno.svg";
 
 const Testimonials = () => {
   const testimonials = [
     {
       name: "Inés Fumagalli",
-      role: "Admin Manager, Barraca UNO",
-      text: "October Labs IO transformó nuestra infraestructura de datos. Su equipo no solo es experto, sino que también se compromete verdaderamente con el éxito del proyecto. ¡Los resultados superaron nuestras expectativas!",
+      role: "CEO, Barraca UNO",
+      text: "Teníamos muchas dudas sobre cómo iniciar nuestra transformación digital, pero el equipo lo hizo todo muy sencillo. Con una cercanía y claridad únicas, desmitificaron la inteligencia artificial y nos mostraron cómo aplicarla de forma práctica a nuestros problemas reales.",
       image:
         "Professional headshot of a confident female tech CEO, modern office background",
     },
@@ -57,6 +58,9 @@ const Testimonials = () => {
               className="bg-gray-800/50 rounded-2xl p-8 border border-gray-700 flex flex-col"
             >
               <Quote className="w-10 h-10 text-purple-500 mb-4" />
+              <h1 className="text-2xl md:text-2xl font-extrabold mb-6 leading-tight ">
+                No solo entienden de IA, entienden de personas
+              </h1>
               <p className="text-gray-300 leading-relaxed flex-grow mb-6">
                 "{testimonial.text}"
               </p>
@@ -64,7 +68,8 @@ const Testimonials = () => {
                 <img
                   className="w-14 h-14 rounded-full object-cover"
                   alt={`Foto de ${testimonial.name}`}
-                  src="https://images.unsplash.com/photo-1595872018818-97555653a011"
+                  // src="https://images.unsplash.com/photo-1595872018818-97555653a011"
+                  src={barracaUnoLogo}
                 />
                 <div>
                   <h4 className="font-bold text-white text-lg">
