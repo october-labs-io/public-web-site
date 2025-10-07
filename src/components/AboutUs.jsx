@@ -14,16 +14,15 @@ const AboutUs = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              El motor tecnológico de tus ideas
+              An Engine Powering Your Ideas {/*El motor tecnológico de tus ideas*/}
             </h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              En October Labs IO, somos un equipo de apasionados por la
-              tecnología, dedicados a resolver problemas complejos con
-              soluciones elegantes y eficientes. Nuestra experiencia no está
-              solo en construir, sino en saber cómo construir. Seleccionamos
-              estratégicamente las herramientas de IA para cada necesidad,
-              creando un proceso altamente eficiente que reduce costos y te permite
-              llegar al mercado mucho antes.
+              At October Labs, we’re a team of tech lovers who solve complex problems with elegant, efficient solutions. 
+              Our strength isn’t just building, it’s knowing how to build. We hand-pick the right tools for each need, creating lean process and tools that cuts costs and gets you to market much sooner.
+
+              {/*En October Labs IO, somos un equipo de apasionados por la tecnología, dedicados a resolver problemas complejos con soluciones elegantes y eficientes. 
+              Nuestra experiencia no está solo en construir, sino en saber cómo construir. Seleccionamos estratégicamente las herramientas de IA para cada necesidad, 
+              creando un proceso altamente eficiente que reduce costos y te permite llegar al mercado mucho antes.*/}
             </p>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
@@ -32,17 +31,19 @@ const AboutUs = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white">
-                    Nuestra Misión
+                    {/*Nuestra Misión*/}
+                    Our Mission
                   </h3>
                   <p>
-                    Lo que hacemos hoy, nuestro propósito
+                    {/*Lo que hacemos hoy, nuestro propósito*/}
+                    What we’re doing right now <i>(why we get out of bed)</i>
                   </p>
                   <br />
                   <p className="text-gray-400">
-                    Ser el socio tecnológico que impulsa el éxito de
+                    Be the technology partner that powers entrepreneurs and companies, turning ideas into exceptional digital products.
+                    {/*Ser el socio tecnológico que impulsa el éxito de
                     emprendedores y empresas, transformando sus ideas en
-                    productos digitales excepcionales.
-
+                    productos digitales excepcionales.*/}
                   </p>
                 </div>
               </div>
@@ -52,15 +53,19 @@ const AboutUs = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white">
-                    Nuestra Visión
+                    Our Vision
+                    {/*Nuestra Visión*/}
                   </h3>
                   <p>
-                    El futuro que queremos construir, nuestro impacto a largo
-                    plazo
+                    Where we’re headed <i>(the dent we want to make)</i>
+                    {/*El futuro que queremos construir, nuestro impacto a largo
+                    plazo*/}
                   </p>
                   <br />
                   <p className="text-gray-400">
-                    Ser el referente global de una nueva forma de crear
+                    Become the global benchmark for a new way to build technology—one that proves AI’s radical efficiency and human warmth can—and should—coexist. 
+                    Leading a world where AI efficiency and human connection work together by design.                
+                    {/*Ser el referente global de una nueva forma de crear
                     tecnología: una que demuestre que la eficiencia radical de
                     la IA y la calidez de la conexión humana no solo pueden,
                     sino que deben coexistir. 

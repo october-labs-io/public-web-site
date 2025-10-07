@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import octoberLabsLogo from "../assets/logo_transparent.svg";
+import octoberLabsLogo from "../assets/October-labs-io_logoWebsite.svg";
 
 const Hero = () => {
   const scrollToSection = (href) => {
@@ -37,21 +37,20 @@ const Hero = () => {
           />
 
           <h1 className="text-5xl md:text-5xl font-extrabold mb-6 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-            Orquestamos la IA para acelerar tu éxito
+            We Orchestrate AI to Fast-Track Your Success
           </h1>
 
           <h2 className="text-xl md:text-3xl mb-10 text-gray-300 max-w-3xl mx-auto">
-            No se trata solo de usar herramientas, sino de aplicar la correcta.
-
+            It’s not about using AI, it’s about doing it right.
           </h2>
+
           <h3 className="text-xl md:text-lg mb-10 text-gray-300 max-w-3xl mx-auto">
-            Sabemos cuál es la IA perfecta para cada momento del ciclo de vida de un producto. Así es
-            como optimizamos costos, aceleramos tu lanzamiento y nos enfocamos
-            contigo en la meta final... el éxito de tu idea.
+            We know which AI fits each stage of your product’s journey. 
+            That’s how we build efficiently and scalable, speed up launch, and stay focused with you on what matters most... turning your idea into a success.
           </h3>
 
-          <div className="flex justify-center gap-4">
-            {/* <Button
+          {/*<div className="flex justify-center gap-4">
+            <Button
               onClick={() => scrollToSection("#contact")}
               size="lg"
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold text-lg px-8 py-6 rounded-full shadow-2xl shadow-purple-500/30 group"
@@ -66,8 +65,8 @@ const Hero = () => {
               className="border-2 border-purple-500 text-purple-400 hover:bg-purple-500/10 hover:text-white font-bold text-lg px-8 py-6 rounded-full"
             >
               Our stack
-            </Button> */}
-          </div>
+            </Button>
+          </div>*/}
         </motion.div>
       </div>
     </section>
