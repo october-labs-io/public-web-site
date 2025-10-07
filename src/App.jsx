@@ -9,6 +9,7 @@ import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import { Toaster } from '@/components/ui/toaster';
+import HowWeWork from './components/HowWeWork';
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,8 +34,9 @@ function App() {
         <Navigation isScrolled={isScrolled} />
         <main>
           <Hero />
-          <Services />
           <AboutUs />
+          {/* <Services /> */}
+          <HowWeWork/>
           <Technology />
           <Testimonials />
           <Contact />

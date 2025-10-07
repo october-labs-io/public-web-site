@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 border-t border-gray-800 py-12">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
+        <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img
@@ -31,29 +31,29 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Orquestamos la IA para acelerar tu éxito.
+              Orquestamos la IA para acelerar tu éxito
             </p>
           </div>
 
           <div>
             <span className="font-bold text-lg text-white mb-4 block">
-              Navegación
+              Site
             </span>
             <ul className="space-y-2">
-              <li>
-                <a
-                  onClick={() => scrollToSection("#services")}
-                  className="text-gray-400 hover:text-purple-400 transition-colors cursor-pointer"
-                >
-                  Servicios
-                </a>
-              </li>
               <li>
                 <a
                   onClick={() => scrollToSection("#about")}
                   className="text-gray-400 hover:text-purple-400 transition-colors cursor-pointer"
                 >
-                  Nosotros
+                  About us
+                </a>
+              </li>
+              <li>
+                <a
+                  onClick={() => scrollToSection("#workflow")}
+                  className="text-gray-400 hover:text-purple-400 transition-colors cursor-pointer"
+                >
+                  Workflow
                 </a>
               </li>
               <li>
@@ -61,7 +61,15 @@ const Footer = () => {
                   onClick={() => scrollToSection("#tech")}
                   className="text-gray-400 hover:text-purple-400 transition-colors cursor-pointer"
                 >
-                  Tecnología
+                  Stack AI
+                </a>
+              </li>
+              <li>
+                <a
+                  onClick={() => scrollToSection("#testimonials")}
+                  className="text-gray-400 hover:text-purple-400 transition-colors cursor-pointer"
+                >
+                  Customers
                 </a>
               </li>
               <li>
@@ -95,7 +103,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <span className="font-bold text-lg text-white mb-4 block">
               Síguenos
             </span>
@@ -119,7 +127,7 @@ const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center">

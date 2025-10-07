@@ -40,30 +40,33 @@ const Hero = () => {
             Orquestamos la IA para acelerar tu éxito
           </h1>
 
-          <h2 className="text-xl md:text-2xl mb-10 text-gray-300 max-w-3xl mx-auto">
+          <h2 className="text-xl md:text-3xl mb-10 text-gray-300 max-w-3xl mx-auto">
             No se trata solo de usar herramientas, sino de aplicar la correcta.
-            Sabemos cuál es la IA perfecta para cada fase de tu producto. Así es
-            como optimizamos costos, aceleramos tu lanzamiento y nos enfocamos
-            contigo en la meta final: el éxito de tu idea.
+
           </h2>
+          <h3 className="text-xl md:text-lg mb-10 text-gray-300 max-w-3xl mx-auto">
+            Sabemos cuál es la IA perfecta para cada momento del ciclo de vida de un producto. Así es
+            como optimizamos costos, aceleramos tu lanzamiento y nos enfocamos
+            contigo en la meta final... el éxito de tu idea.
+          </h3>
 
           <div className="flex justify-center gap-4">
-            <Button
+            {/* <Button
               onClick={() => scrollToSection("#contact")}
               size="lg"
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold text-lg px-8 py-6 rounded-full shadow-2xl shadow-purple-500/30 group"
             >
-              Contanos Tu Idea
+              Let´s talk about your ideas
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button
+            </Button> */}
+            {/* <Button
               onClick={() => scrollToSection("#services")}
               size="lg"
               variant="outline"
               className="border-2 border-purple-500 text-purple-400 hover:bg-purple-500/10 hover:text-white font-bold text-lg px-8 py-6 rounded-full"
             >
-              Ver Servicios
-            </Button>
+              Our stack
+            </Button> */}
           </div>
         </motion.div>
       </div>

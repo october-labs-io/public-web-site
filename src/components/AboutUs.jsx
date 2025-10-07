@@ -22,7 +22,7 @@ const AboutUs = () => {
               soluciones elegantes y eficientes. Nuestra experiencia no está
               solo en construir, sino en saber cómo construir. Seleccionamos
               estratégicamente las herramientas de IA para cada necesidad,
-              creando un proceso ultra-eficiente que reduce costos y te permite
+              creando un proceso altamente eficiente que reduce costos y te permite
               llegar al mercado mucho antes.
             </p>
             <div className="space-y-6">
@@ -35,21 +35,14 @@ const AboutUs = () => {
                     Nuestra Misión
                   </h3>
                   <p>
-                    Lo que hacemos hoy, nuestro propósito y cómo lo logramos
+                    Lo que hacemos hoy, nuestro propósito
                   </p>
                   <br />
                   <p className="text-gray-400">
                     Ser el socio tecnológico que impulsa el éxito de
                     emprendedores y empresas, transformando sus ideas en
-                    productos digitales excepcionales. <br />
-                    <br /> Como lo hacemos? Lo hacemos a través de la
-                    orquestación estratégica de IA, aplicando la herramienta
-                    precisa para cada necesidad con el fin de acelerar los
-                    tiempos y optimizar los costos. Cada producto lo vivimos con
-                    una profunda pasión por construir, guiados por la amabilidad
-                    en cada interacción y el respeto por las personas y sus
-                    visiones, reflejando la calidez y el vibrante talento de
-                    LATAM.
+                    productos digitales excepcionales.
+
                   </p>
                 </div>
               </div>
@@ -62,20 +55,21 @@ const AboutUs = () => {
                     Nuestra Visión
                   </h3>
                   <p>
-                    (El futuro que queremos construir, nuestro impacto a largo
-                    plazo)
+                    El futuro que queremos construir, nuestro impacto a largo
+                    plazo
                   </p>
                   <br />
                   <p className="text-gray-400">
-                    Ser el referente en LATAM de una nueva forma de crear
+                    Ser el referente global de una nueva forma de crear
                     tecnología: una que demuestre que la eficiencia radical de
                     la IA y la calidez de la conexión humana no solo pueden,
-                    sino que deben coexistir. Aspiramos a un futuro donde las
+                    sino que deben coexistir. 
+                    {/* Aspiramos a un futuro donde las
                     grandes ideas no mueran por barreras técnicas o económicas,
                     y donde el talento sea reconocido globalmente por su
                     creatividad, su excelencia y su capacidad única para innovar
                     con un enfoque humano. Queremos ser el catalizador que
-                    conecte esas ideas con el mundo.
+                    conecte esas ideas con el mundo. */}
                   </p>
                 </div>
               </div>

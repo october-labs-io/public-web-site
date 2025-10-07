@@ -10,9 +10,10 @@ const Navigation = ({ isScrolled }) => {
   const navLinks = [
     // { name: "Servicios", href: "#services" },
     { name: "About us", href: "#about" },
+    { name: "Workflow", href: "#workflow" },
     { name: "Stack AI", href: "#tech" },
     { name: "Customers", href: "#testimonials" },
-    { name: "Portfolio", href: "#services" },
+    // { name: "Portfolio", href: "#services" },
   ];
 
   const scrollToSection = (href) => {

@@ -1,37 +1,37 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Code, BrainCircuit, Database, Smartphone } from "lucide-react";
+import { Lightbulb, TextSearch, Brush, Code } from "lucide-react";
 
-const Services = () => {
+const HowWeWork = () => {
   const services = [
     {
+      icon: Lightbulb,
+      title: "Ideación y Validación Acelerada",
+      description:
+        "Utilizamos herramientas de AI para prototipar y validar tus ideas rápidamente, asegurando que construimos el producto correcto desde el inicio.",
+    },
+    {
+      icon: TextSearch,
+      title: "Análisis Estratégico Inteligente",
+      description:
+        "Analizamos el mercado y la competencia, realizando benchmarks para posicionar tu producto de manera estratégica y con una ventaja competitiva.",
+    },
+    {
+      icon: Brush,
+      title: "Diseño de Experiencias Únicas",
+      description:
+        "Creamos interfaces intuitivas y atractivas con herramientas de diseño asistido por IA, enfocándonos siempre en la experiencia del usuario final.",
+    },
+    {
       icon: Code,
-      title: "Desarrollo a Medida",
+      title: "Codificación Eficiente y Escalable",
       description:
-        "Creamos aplicaciones web y móviles robustas, escalables y personalizadas para satisfacer tus necesidades específicas.",
-    },
-    {
-      icon: BrainCircuit,
-      title: "Inteligencia Artificial",
-      description:
-        "Implementamos soluciones de IA y Machine Learning para automatizar procesos, obtener insights y potenciar tu negocio.",
-    },
-    {
-      icon: Database,
-      title: "Análisis de Datos",
-      description:
-        "Transformamos tus datos en decisiones estratégicas a través de dashboards interactivos y análisis predictivos.",
-    },
-    {
-      icon: Smartphone,
-      title: "Consultoría Tecnológica",
-      description:
-        "Te guiamos en tu viaje de transformación digital, desde la estrategia hasta la implementación y optimización.",
+        "Aceleramos el desarrollo con asistentes de codificación, construyendo soluciones robustas y listas para escalar junto a tu negocio.",
     },
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-900">
+    <section id="workflow" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -41,10 +41,10 @@ const Services = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Nuestros servicios
+            Nuestro Flujo de Trabajo
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Que ofrecemos...
+            ¿Cómo convertimos ideas en productos exitosos?
           </p>
           {/* <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Lo hacemos a través de la orquestación estratégica de IA, aplicando la herramienta
@@ -84,4 +84,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default HowWeWork;
