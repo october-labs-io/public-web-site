@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 border-t border-gray-800 py-12">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img
@@ -56,14 +56,14 @@ const Footer = () => {
                   Workflow
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   onClick={() => scrollToSection("#tech")}
                   className="text-gray-400 hover:text-purple-400 transition-colors cursor-pointer"
                 >
                   Stack AI
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   onClick={() => scrollToSection("#testimonials")}
@@ -103,31 +103,31 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* <div>
+          <div>
             <span className="font-bold text-lg text-white mb-4 block">
-              Síguenos
+              Follow us
             </span>
             <div className="flex gap-4">
-              <a
+              {/* <a
                 href="#"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-500 transition-colors"
               >
                 <Twitter className="w-5 h-5" />
-              </a>
+              </a> */}
               <a
-                href="#"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors"
-              >
+                href="https://www.linkedin.com/company/october-labs"
+                className="w-10 h-10 text-purple-400 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors"
+              >              
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-pink-500 transition-colors"
               >
                 <Instagram className="w-5 h-5" />
-              </a>
+              </a> */}
             </div>
-          </div> */}
+          </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center">
