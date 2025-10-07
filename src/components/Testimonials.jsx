@@ -5,8 +5,8 @@ import { Quote } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Elena García",
-      role: "CEO, Innovate Corp",
+      name: "Inés Fumagalli",
+      role: "Admin Manager, Barraca UNO",
       text: "October Labs IO transformó nuestra infraestructura de datos. Su equipo no solo es experto, sino que también se compromete verdaderamente con el éxito del proyecto. ¡Los resultados superaron nuestras expectativas!",
       image:
         "Professional headshot of a confident female tech CEO, modern office background",

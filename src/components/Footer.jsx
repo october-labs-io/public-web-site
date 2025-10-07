@@ -77,7 +77,7 @@ const Footer = () => {
                   onClick={() => scrollToSection("#contact")}
                   className="text-gray-400 hover:text-purple-400 transition-colors cursor-pointer"
                 >
-                  Contacto
+                  Contact
                 </a>
               </li>
             </ul>
@@ -90,7 +90,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <Mail className="w-5 h-5 text-purple-400 mt-1" />
-                <span className="text-gray-400">hola@octoberlabs.io</span>
+                <span className="text-gray-400">hi@octoberlabs.io</span>
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="w-5 h-5 text-purple-400 mt-1" />
@@ -98,7 +98,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-5 h-5 text-purple-400 mt-1" />
-                <span className="text-gray-400">Silicon Valley, CA</span>
+                <span className="text-gray-400">Miami, FL</span>
               </li>
             </ul>
           </div>

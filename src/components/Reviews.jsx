@@ -5,10 +5,10 @@ import { Star, Quote } from "lucide-react";
 const Reviews = () => {
   const reviews = [
     {
-      name: "María González",
-      role: "CEO, TechVision",
+      name: "Inés Fumagalli",
+      role: "Admin Manager, Barraca UNO",
       rating: 5,
-      text: "Este libro cambió completamente mi perspectiva sobre el emprendimiento. Las estrategias son prácticas y los casos de estudio son inspiradores. ¡Altamente recomendado!",
+      text: "Automatización de procesos utilizando AI, como parte de una transformación digital integral.",
       image:
         "Professional headshot of a confident female tech CEO, modern office background",
     },

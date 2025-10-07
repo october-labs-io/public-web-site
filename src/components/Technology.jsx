@@ -1,20 +1,27 @@
 import React from "react";
 import { motion } from "framer-motion";
-import geminiLogo from "../assets/gemini.svg";
+import geminiLogo from "../assets/gemini_mc.svg";
 import julesLogo from "../assets/jules.svg";
 import notebooklmLogo from "../assets/notebooklm.svg";
 import stitchLogo from "../assets/stitch.png";
-import aiStudioLogo from "../assets/ai_studio.svg";
+import aiStudioLogo from "../assets/aistudio.svg";
 import fireBaseStudioLogo from "../assets/firebase_studio.svg";
+import openAiLogo from "../assets/openai.svg";
+import anthropicLogo from "../assets/anthropic.svg";
+import perplexityLogo from "../assets/perplexity.svg";
 
 const Technology = () => {
   const techStack = [
     { name: "Gemini", image: geminiLogo },
+    { name: "Open AI", image: openAiLogo },
+    { name: "Anthropic", image: anthropicLogo },
+    { name: "Perplexity", image: perplexityLogo },
     { name: "NotebookLM", image: notebooklmLogo },
-    { name: "Jules", image: julesLogo },
-    { name: "Firebase Studio", image: fireBaseStudioLogo },
-    { name: "Stitch", image: stitchLogo },
     { name: "Google AI Studio", image: aiStudioLogo },
+    { name: "Firebase Studio", image: fireBaseStudioLogo },
+    { name: "Jules", image: julesLogo },
+    { name: "Stitch", image: stitchLogo },
+    
   ];
 
   return (
