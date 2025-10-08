@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Lightbulb, TextSearch, Brush, Code } from "lucide-react";
 
-const HowWeWork = () => {
+/*const HowWeWork_es = () => {
   const services = [
     {
       icon: Lightbulb,
@@ -28,6 +28,33 @@ const HowWeWork = () => {
       description:
         "Aceleramos el desarrollo con asistentes de codificación, construyendo soluciones robustas y listas para escalar junto a tu negocio.",
     },
+  ];*/
+const HowWeWork = () => {
+  const services = [
+    {
+      icon: Lightbulb,
+      title: "Spark & Stress-Test",
+      description:
+        "Quick prototypes confirm we’re solving the right problem. AI helps us try, break, and validate ideas fast... No guesswork, just evidence",
+    },
+    {
+      icon: TextSearch,
+      title: "Plot the Map",
+      description:
+        "We aim before you launch. Benchmarking the field and carve a strategic lane for you, analyzing market and business insights to guide a clear, competitive strategy.  ",
+    },
+    {
+      icon: Brush,
+      title: "Make It Wow",
+      description:
+        "UX & UI where pretty meets purposeful. Leveraging AI to co-design clear, beautiful, and human-ready interfaces. Building feel-good, friction-free UX",
+    },
+    {
+      icon: Code,
+      title: "Build for Scale",
+      description:
+        "Using AI-assisted development and testing, your product is born to scale, ready to grow without drama. Speed now, stability later (and forever). ",
+    },
   ];
 
   return (
@@ -41,10 +68,12 @@ const HowWeWork = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Nuestro Flujo de Trabajo
+            Think → Make {/*Build*/} → Ship
+            {/*Nuestro Flujo de Trabajo*/}
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            ¿Cómo convertimos ideas en productos exitosos?
+            {/*¿Cómo convertimos ideas en productos exitosos?*/}
+            From <i>“what if?”</i> to <i>“we shipped.”</i>
           </p>
           {/* <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Lo hacemos a través de la orquestación estratégica de IA, aplicando la herramienta

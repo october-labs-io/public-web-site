@@ -35,12 +35,13 @@ const Technology = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Nuestro Stack
+            {/*Nuestro Stack*/}
+            What We Build With
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Utilizamos un stack de herramientas de AI moderno y robusto para
-            construir soluciones de alto rendimiento. Sabemos exactamente que
-            herramientas usar en cada iteración del producto.
+            {/*Utilizamos un stack de herramientas de AI moderno y robusto para construir soluciones de alto rendimiento. Sabemos exactamente que herramientas usar en cada iteración del producto. */}
+            We use a modern, robust AI toolkit to ship high-performance solutions. 
+            And because we know which tool fits each stage of your product, every iteration is faster, cleaner, and smarter.
           </p>
         </motion.div>
 

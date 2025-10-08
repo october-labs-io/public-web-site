@@ -16,14 +16,14 @@ const Contact = () => {
     e.preventDefault();
     if (formData.name && formData.email && formData.message) {
       toast({
-        title: "🚀 ¡Mensaje enviado!",
-        description: "Gracias por contactarnos. Nos pondremos en contacto contigo pronto.",
+        title: "🚀 ¡Sent!",
+        description: "Thanks for reaching out. We'll get in touch soon, like really really soon...",
       });
       setFormData({ name: '', email: '', message: '' });
     } else {
       toast({
         title: "🚧 Formulario incompleto",
-        description: "Por favor, completa todos los campos.",
+        description: "Please, fill all required fields.",
         variant: "destructive",
       });
     }
@@ -40,10 +40,13 @@ const Contact = () => {
           className="max-w-3xl mx-auto text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Hablemos de tus ideas...
+            Let’s talk...
+            {/*We’re curious, and we want to listen...*/}
+            {/*Hablemos de tus ideas...*/}
           </h2>
           <p className="text-xl text-gray-400">
-            ¿Listo para empezar? Completa el formulario y nuestro equipo se pondrá en contacto contigo.
+            Send a few lines, and we’ll connect to explore next steps together.
+            {/*¿Listo para empezar? Completa el formulario y nuestro equipo se pondrá en contacto contigo.*/}
           </p>
         </motion.div>
 
@@ -63,7 +66,7 @@ const Contact = () => {
                 id="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="Tu nombre completo"
+                placeholder="Your Name"
                 className="w-full px-4 py-3 rounded-lg bg-gray-700 border-2 border-gray-600 focus:border-purple-500 focus:outline-none focus:ring-0 text-white transition-colors"
                 required
               />
@@ -76,7 +79,7 @@ const Contact = () => {
                 id="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="tu@email.com"
+                placeholder="your@email.com"
                 className="w-full px-4 py-3 rounded-lg bg-gray-700 border-2 border-gray-600 focus:border-purple-500 focus:outline-none focus:ring-0 text-white transition-colors"
                 required
               />
@@ -89,7 +92,7 @@ const Contact = () => {
                 rows="5"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Cuéntanos sobre tu idea o proyecto..."
+                placeholder="Share some thougths and ideas..."
                 className="w-full px-4 py-3 rounded-lg bg-gray-700 border-2 border-gray-600 focus:border-purple-500 focus:outline-none focus:ring-0 text-white transition-colors"
                 required
               ></textarea>
@@ -99,7 +102,7 @@ const Contact = () => {
               className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold py-4 rounded-lg shadow-lg shadow-purple-500/20 text-lg"
             >
               <Send className="w-5 h-5 mr-2" />
-              Enviar Mensaje
+              Start the Conversation
             </Button>
           </form>
         </motion.div>

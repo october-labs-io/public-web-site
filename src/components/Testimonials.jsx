@@ -39,11 +39,12 @@ const Testimonials = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Lo que dicen nuestros clientes
+            In Their Words
+            {/*Lo que dicen nuestros clientes*/}
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Construimos relaciones duraderas basadas en la confianza y los
-            resultados.
+            We build lasting relationships, rooted in trust, professionalism and proven by results.
+            {/*Construimos relaciones duraderas basadas en la confianza y los resultados.*/}
           </p>
         </motion.div>
 
