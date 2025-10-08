@@ -59,7 +59,7 @@ const Contact = () => {
         >
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="name" className="block text-sm font-semibold text-gray-300 mb-2">Nombre</label>
+              <label htmlFor="name" className="block text-sm font-semibold text-gray-300 mb-2">Name</label>
               <input
                 type="text"
                 name="name"
@@ -72,7 +72,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label htmlFor="email" className="block text-sm font-semibold text-gray-300 mb-2">Correo electrónico</label>
+              <label htmlFor="email" className="block text-sm font-semibold text-gray-300 mb-2">Email</label>
               <input
                 type="email"
                 name="email"
@@ -85,7 +85,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label htmlFor="message" className="block text-sm font-semibold text-gray-300 mb-2">Mensaje</label>
+              <label htmlFor="message" className="block text-sm font-semibold text-gray-300 mb-2">Message</label>
               <textarea
                 name="message"
                 id="message"
@@ -102,7 +102,7 @@ const Contact = () => {
               className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold py-4 rounded-lg shadow-lg shadow-purple-500/20 text-lg"
             >
               <Send className="w-5 h-5 mr-2" />
-              Start the Conversation
+              Start building your dreams
             </Button>
           </form>
         </motion.div>

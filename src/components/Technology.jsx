@@ -5,22 +5,28 @@ import julesLogo from "../assets/jules.svg";
 import notebooklmLogo from "../assets/notebooklm.svg";
 import stitchLogo from "../assets/stitch.png";
 import aiStudioLogo from "../assets/aistudio.svg";
-import fireBaseStudioLogo from "../assets/firebase_studio.svg";
+import fireBaseStudioLogo from "../assets/firebase_studio_w.svg";
 import openAiLogo from "../assets/openai.svg";
 import anthropicLogo from "../assets/anthropic.svg";
 import perplexityLogo from "../assets/perplexity.svg";
+import v0Logo from "../assets/v0.svg";
+import lovableLogo from "../assets/lovable_w.svg";
+import moreLogo from "../assets/more.svg";
 
 const Technology = () => {
   const techStack = [
     { name: "Gemini", image: geminiLogo },
-    { name: "Open AI", image: openAiLogo },
+    { name: "Chat GPT", image: openAiLogo },
     { name: "Anthropic", image: anthropicLogo },
     { name: "Perplexity", image: perplexityLogo },
     { name: "NotebookLM", image: notebooklmLogo },
     { name: "Google AI Studio", image: aiStudioLogo },
     { name: "Firebase Studio", image: fireBaseStudioLogo },
     { name: "Jules", image: julesLogo },
-    { name: "Stitch", image: stitchLogo },
+    // { name: "Stitch", image: stitchLogo },
+    { name: "v0", image: v0Logo },
+    { name: "Lovable", image: lovableLogo },
+    { name: "and more...", image: moreLogo },
     
   ];
 

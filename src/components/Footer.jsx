@@ -31,7 +31,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Orquestamos la IA para acelerar tu éxito
+              We Orchestrate AI to Fast-Track Your Success
             </p>
           </div>
 
@@ -56,14 +56,14 @@ const Footer = () => {
                   Workflow
                 </a>
               </li>
-              {/* <li>
+              <li>
                 <a
                   onClick={() => scrollToSection("#tech")}
                   className="text-gray-400 hover:text-purple-400 transition-colors cursor-pointer"
                 >
-                  Stack AI
+                  What We Build With
                 </a>
-              </li> */}
+              </li>
               <li>
                 <a
                   onClick={() => scrollToSection("#testimonials")}

@@ -40,7 +40,7 @@ function App() {
           <AboutUs />
           {/* <Services /> */}
           <HowWeWork />
-          {/* <Technology /> */}
+          <Technology />
           <Testimonials />
           <Contact />
         </main>

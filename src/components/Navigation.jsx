@@ -11,7 +11,7 @@ const Navigation = ({ isScrolled }) => {
     // { name: "Servicios", href: "#services" },
     { name: "About us", href: "#about" },
     { name: "Workflow", href: "#workflow" },
-    // { name: "Stack AI", href: "#tech" },
+    { name: "What We Build With", href: "#tech" },
     { name: "Customers", href: "#testimonials" },
     // { name: "Portfolio", href: "#services" },
   ];
