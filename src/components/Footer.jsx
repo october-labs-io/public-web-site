@@ -9,6 +9,7 @@ import {
   Linkedin,
 } from "lucide-react";
 import octoberLabsLogo from "../assets/logo_transparent.svg";
+import octoberLabsLogoW from "../assets/logo_white.svg";
 
 const Footer = () => {
   const scrollToSection = (href) => {
@@ -25,7 +26,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img
-                src={octoberLabsLogo}
+                src={octoberLabsLogoW}
                 alt="October Labs io"
                 className="h-10"
               />

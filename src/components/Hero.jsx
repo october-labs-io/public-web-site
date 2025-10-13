@@ -2,7 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import octoberLabsLogo from "../assets/October-labs-io_logoWebsite.svg";
+//import octoberLabsLogo from "../assets/October-labs-io_logoWebsite.svg";
+import octoberLabsLogo from "../assets/logo_multicolor.svg";
+import octoberLabsLogoW from "../assets/logo_white.svg";
 
 const Hero = () => {
   const scrollToSection = (href) => {
@@ -31,7 +33,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            src={octoberLabsLogo}
+            src={octoberLabsLogoW}
             alt="October Labs io"
             className="h-24 md:h-64 mx-auto mb-8"
           />
