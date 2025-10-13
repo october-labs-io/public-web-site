@@ -2,29 +2,31 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
 import barracaUnoLogo from "../assets/barraca_uno.svg";
+import bisnextLogo from "../assets/bisnext.svg";
+import sendaLogo from "../assets/senda.svg";
 
 const Testimonials = () => {
   const testimonials = [
     {
       name: "Inés Fumagalli",
       role: "CEO, Barraca UNO",
-      text: "Teníamos muchas dudas sobre cómo iniciar nuestra transformación digital, pero el equipo lo hizo todo muy sencillo. Con una cercanía y claridad únicas, desmitificaron la inteligencia artificial y nos mostraron cómo aplicarla de forma práctica a nuestros problemas reales.",
-      image:
-        "Professional headshot of a confident female tech CEO, modern office background",
+      title: "They don't just understand AI, they understand people.",
+      text: "We had many doubts about how to start our digital transformation, but the team made everything very simple. With a unique closeness and clarity, they demystified artificial intelligence and showed us how to apply it practically to our real problems.",
+      image: barracaUnoLogo
     },
     {
-      name: "Marcos Pérez",
-      role: "Director de Producto, Future Solutions",
-      text: "El desarrollo de nuestra aplicación móvil fue impecable. Cumplieron con los plazos y la calidad del código es excepcional. Son un socio tecnológico de confianza.",
-      image:
-        "Professional portrait of a male product director, casual business attire, bright background",
+      name: "Mauricio Rostán",
+      role: "Director, Bisnext",
+      title: "More than a vendor, a true strategic partner.",
+      text: "We had worked with several software agencies before, but we always felt like we were speaking different languages. With October Labs, we found a team that not only masters AI technology but also dove deep into our business to understand our challenges. Their approach allowed us to launch our project in record time and on a much smaller budget than we had estimated.",
+      image: bisnextLogo
     },
     {
       name: "Sofía López",
-      role: "Fundadora, DataDriven Co.",
+      role: "Founder, Senda.",
+      title: "They don't just understand AI, they understand people.",
       text: "La implementación de su modelo de IA ha optimizado nuestras operaciones en un 40%. El equipo de October Labs IO es brillante y su enfoque es increíblemente estratégico.",
-      image:
-        "Professional photo of a sophisticated female founder, elegant business setting",
+      image:sendaLogo
     },
   ];
 
@@ -60,7 +62,7 @@ const Testimonials = () => {
             >
               <Quote className="w-10 h-10 text-purple-500 mb-4" />
               <h1 className="text-2xl md:text-2xl font-extrabold mb-6 leading-tight ">
-                No solo entienden de IA, entienden de personas
+                {testimonial.title}
               </h1>
               <p className="text-gray-300 leading-relaxed flex-grow mb-6">
                 "{testimonial.text}"
@@ -70,7 +72,7 @@ const Testimonials = () => {
                   className="w-14 h-14 rounded-full object-cover"
                   alt={`Foto de ${testimonial.name}`}
                   // src="https://images.unsplash.com/photo-1595872018818-97555653a011"
-                  src={barracaUnoLogo}
+                  src={testimonial.image}
                 />
                 <div>
                   <h4 className="font-bold text-white text-lg">
