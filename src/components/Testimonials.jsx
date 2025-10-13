@@ -22,10 +22,10 @@ const Testimonials = () => {
       image: bisnextLogo
     },
     {
-      name: "Sofía López",
-      role: "Founder, Senda.",
-      title: "They don't just understand AI, they understand people.",
-      text: "La implementación de su modelo de IA ha optimizado nuestras operaciones en un 40%. El equipo de October Labs IO es brillante y su enfoque es increíblemente estratégico.",
+      name: "Santiago Halty",
+      role: "CEO, Senda Athletics",
+      title: "Tangible results and efficiency, right from the start.",
+      text: "Working with October Labs has been a game-changer for Senda. They helped us understand the AI potential, align them with our mission, and take concrete steps toward real digital transformation. They met us where we were, challenged our thinking with empathy, and turned complex data conversations into clear, actionable insights.",
       image:sendaLogo
     },
   ];
