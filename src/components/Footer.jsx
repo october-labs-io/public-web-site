@@ -133,7 +133,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-500">
-            © 2025 October Labs IO. Todos los derechos reservados.
+            © 2025 October Labs IO. All rights reserved.
           </p>
         </div>
       </div>
