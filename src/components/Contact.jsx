@@ -1,31 +1,68 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Send } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { toast } from '@/components/ui/use-toast';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { Send } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { toast } from "@/components/ui/use-toast";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (formData.name && formData.email && formData.message) {
+    setIsSubmitting(true);
+
+    try {
+      if (formData.name && formData.email && formData.message) {
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            access_key: "081588e8-6304-41a4-828a-8484c4388091",
+            ...formData,
+          }),
+        });
+
+        const result = await response.json();
+        if (result.success) {
+          toast({
+            title: "🚀 ¡Sent!",
+            description:
+              "Thanks for reaching out. We'll get in touch soon, like really really soon...",
+          });
+          setFormData({ name: "", email: "", message: "" });
+        } else {
+          toast({
+            title: "⚠️ Error",
+            description: "An error occurred while trying to submit the form.",
+            variant: "destructive",
+          });
+        }
+      } else {
+        toast({
+          title: "🚧 Incomplete Form",
+          description: "Please, fill all required fields.",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
       toast({
-        title: "🚀 ¡Sent!",
-        description: "Thanks for reaching out. We'll get in touch soon, like really really soon...",
-      });
-      setFormData({ name: '', email: '', message: '' });
-    } else {
-      toast({
-        title: "🚧 Formulario incompleto",
-        description: "Please, fill all required fields.",
+        title: "❌ Error",
+        description: "An error occurred while trying to submit the form.",
         variant: "destructive",
       });
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -59,7 +96,12 @@ const Contact = () => {
         >
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="name" className="block text-sm font-semibold text-gray-300 mb-2">Name</label>
+              <label
+                htmlFor="name"
+                className="block text-sm font-semibold text-gray-300 mb-2"
+              >
+                Name
+              </label>
               <input
                 type="text"
                 name="name"
@@ -72,7 +114,12 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label htmlFor="email" className="block text-sm font-semibold text-gray-300 mb-2">Email</label>
+              <label
+                htmlFor="email"
+                className="block text-sm font-semibold text-gray-300 mb-2"
+              >
+                Email
+              </label>
               <input
                 type="email"
                 name="email"
@@ -85,7 +132,12 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label htmlFor="message" className="block text-sm font-semibold text-gray-300 mb-2">Message</label>
+              <label
+                htmlFor="message"
+                className="block text-sm font-semibold text-gray-300 mb-2"
+              >
+                Message
+              </label>
               <textarea
                 name="message"
                 id="message"
@@ -100,6 +152,7 @@ const Contact = () => {
             <Button
               type="submit"
               className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold py-4 rounded-lg shadow-lg shadow-purple-500/20 text-lg"
+              disabled={isSubmitting}
             >
               <Send className="w-5 h-5 mr-2" />
               Start building your dreams

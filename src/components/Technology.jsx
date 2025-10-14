@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import geminiLogo from "../assets/gemini_mc.svg";
 import julesLogo from "../assets/jules.svg";
 import notebooklmLogo from "../assets/notebooklm.svg";
-import stitchLogo from "../assets/stitch.png";
 import aiStudioLogo from "../assets/aistudio.svg";
 import fireBaseStudioLogo from "../assets/firebase_studio_w.svg";
 import openAiLogo from "../assets/openai.svg";
@@ -23,7 +22,6 @@ const Technology = () => {
     { name: "Google AI Studio", image: aiStudioLogo },
     { name: "Firebase Studio", image: fireBaseStudioLogo },
     { name: "Jules", image: julesLogo },
-    // { name: "Stitch", image: stitchLogo },
     { name: "v0", image: v0Logo },
     { name: "Lovable", image: lovableLogo },
     { name: "and more...", image: moreLogo },

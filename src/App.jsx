@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import Services from "@/components/Services";
 import AboutUs from "@/components/AboutUs";
 import Technology from "@/components/Technology";
 import Testimonials from "@/components/Testimonials";
@@ -43,6 +42,7 @@ function App() {
           <Technology />
           <Testimonials />
           <Contact />
+          {/* <ContactWeb3Forms /> */}
         </main>
         <Footer />
         <Toaster />
