@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import octoberLabsLogo from "../assets/logo_transparent.svg";
 import octoberLabsLogoW from "../assets/logo_white.svg";
+import octoberLabsIcon from "../assets/new_icon.svg";
 
 const Navigation = ({ isScrolled }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -42,7 +43,7 @@ const Navigation = ({ isScrolled }) => {
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => scrollToSection("#hero")}
           >
-            <img src={octoberLabsLogoW} alt="October Labs io" className="h-10" />
+            <img src={octoberLabsIcon} alt="October Labs io" className="h-5" />
           </motion.div>
 
           <div className="hidden md:flex items-center gap-8">
