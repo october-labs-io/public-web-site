@@ -1,10 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
 //import octoberLabsLogo from "../assets/October-labs-io_logoWebsite.svg";
-import octoberLabsLogo from "../assets/logo_multicolor.svg";
-import octoberLabsLogoW from "../assets/logo_white.svg";
 import octoberLabsNewLogo from "../assets/new_logo.svg";
 
 const Hero = () => {

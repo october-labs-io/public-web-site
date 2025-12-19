@@ -1,31 +1,33 @@
 import React from "react";
 import { motion } from "framer-motion";
 import geminiLogo from "../assets/gemini_mc.svg";
+import geminiLogoOriginal from "../assets/gemini.svg";
 import julesLogo from "../assets/jules.svg";
 import notebooklmLogo from "../assets/notebooklm.svg";
 import aiStudioLogo from "../assets/aistudio.svg";
-import fireBaseStudioLogo from "../assets/firebase_studio_w.svg";
+import fireBaseStudioLogo from "../assets/firebase_studio.svg";
 import openAiLogo from "../assets/openai.svg";
 import anthropicLogo from "../assets/anthropic.svg";
 import perplexityLogo from "../assets/perplexity.svg";
 import v0Logo from "../assets/v0.svg";
-import lovableLogo from "../assets/lovable_w.svg";
+import lovableLogo from "../assets/lovable.svg";
 import moreLogo from "../assets/more.svg";
+import antigravityLogoOriginal from "../assets/antigravity.svg";
 
 const Technology = () => {
   const techStack = [
-    { name: "Gemini", image: geminiLogo },
+    { name: "Gemini", image: geminiLogoOriginal },
     { name: "Chat GPT", image: openAiLogo },
     { name: "Anthropic", image: anthropicLogo },
-    { name: "Perplexity", image: perplexityLogo },
-    { name: "NotebookLM", image: notebooklmLogo },
-    { name: "Google AI Studio", image: aiStudioLogo },
     { name: "Firebase Studio", image: fireBaseStudioLogo },
+    { name: "Perplexity", image: perplexityLogo },
     { name: "Jules", image: julesLogo },
-    { name: "v0", image: v0Logo },
+    { name: "NotebookLM", image: notebooklmLogo },
     { name: "Lovable", image: lovableLogo },
+    { name: "Google AI Studio", image: aiStudioLogo },
+    { name: "v0", image: v0Logo },
+    { name: "Antigravity", image: antigravityLogoOriginal },
     { name: "and more...", image: moreLogo },
-    
   ];
 
   return (
@@ -44,8 +46,9 @@ const Technology = () => {
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             {/*Utilizamos un stack de herramientas de AI moderno y robusto para construir soluciones de alto rendimiento. Sabemos exactamente que herramientas usar en cada iteración del producto. */}
-            We use a modern, robust AI toolkit to ship high-performance solutions. 
-            And because we know which tool fits each stage of your product, every iteration is faster, cleaner, and smarter.
+            We use a modern, robust AI toolkit to ship high-performance
+            solutions. And because we know which tool fits each stage of your
+            product, every iteration is faster, cleaner, and smarter.
           </p>
         </motion.div>
 
