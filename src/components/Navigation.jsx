@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import octoberLabsLogo from "../assets/logo_transparent.svg";
-import octoberLabsLogoW from "../assets/logo_white.svg";
 import octoberLabsIcon from "../assets/new_icon.svg";
 
 const Navigation = ({ isScrolled }) => {

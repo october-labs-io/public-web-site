@@ -1,15 +1,5 @@
 import React from "react";
-import {
-  Mail,
-  MapPin,
-  Phone,
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
-} from "lucide-react";
-import octoberLabsLogo from "../assets/logo_transparent.svg";
-import octoberLabsLogoW from "../assets/logo_white.svg";
+import { Mail, MapPin, Phone, Linkedin } from "lucide-react";
 import octoberLabsIcon from "../assets/new_icon.svg";
 
 const Footer = () => {
@@ -119,7 +109,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/company/october-labs"
                 className="w-10 h-10 text-purple-400 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors"
-              >              
+              >
                 <Linkedin className="w-5 h-5" />
               </a>
               {/* <a
@@ -134,8 +124,9 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-500">
-            © 2025 October Labs IO. All rights reserved.
+            © 2026 October Labs IO. All rights reserved - v1.0.1
           </p>
+          
         </div>
       </div>
     </footer>
