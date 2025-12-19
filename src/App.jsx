@@ -25,10 +25,10 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>October Labs IO - Soluciones Tecnológicas Innovadoras</title>
+        <title>October Labs IO</title>
         <meta
           name="description"
-          content="October Labs IO: Impulsamos la transformación digital con soluciones de software a medida, inteligencia artificial y análisis de datos."
+          content="IO: Impulsamos la transformación digital con soluciones de software a medida, inteligencia artificial y análisis de datos."
         />
       </Helmet>
 
